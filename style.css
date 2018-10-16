@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+.btn-koniec{
+	display: none;
+}
+.label-info,
+.label-danger,
+.label-warning {
+	margin: 10px auto;
+	line-height: 20px;
+	padding: 5px;
+	text-align: center;
+	color: #FFF;
+}
+.success {
+	font-size: 1.3em;
+	color: #009;
+	font-weight: 800;
+}
+.tekst {
+	text-align: center;
+	font-size: 20px;
+	color: #F00;
+	font-weight: bold;
+}
+.row {
+	margin: 20px;
+	padding: 10px;
+}

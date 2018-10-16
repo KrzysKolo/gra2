@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Gra: papier, nożyczki, kamień</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="gra.js" async></script>
+ </head>
+ <body>
+ <!-- WYBÓR GRACZA -->
+   <div id="gracz" class="container">
+    <div class="row text-center">
+     <div class="btn-gra">
+      <button id="graczKamien" class="btn btn-danger">Kamień</button>
+      <button id="graczPapier"  class="btn btn-primary">Papier</button>
+      <button id="graczNozyczki"  class="btn btn-info">Nożyce</button>
+     </div>
+    </div>
+    <div class="row">
+     <div class="col-lg-4">Gracz wybrał: <span id="wyborGracza" class="success"></span> <span id="sumaGracz" class="badge">0</span></div>
+     <div class="col-lg-4" >Komp wybrał: <span id="wyborKompa" class="success"></span> <span id="sumaKomp" class="badge">0</span></div>
+     <div class="col-lg-4">wynik: <span id="info" class="success"></span> Za nami: <span id="iloscRund" class="badge">0</span> rund</div>
+    </div>
+    <div class="row">
+     <div id="koniec" class="col-lg-12 tekst"></div>
+    </div>
+    <div id="podsumowanie"></div>
+   </div>
+ </body>
+</html>
